@@ -550,3 +550,13 @@ nav h2 a{
     color:#22c55e;
     font-weight:bold;
 }
+.project-links{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.project-links .btn{
+    flex: 1;
+    text-align: center;
+}
