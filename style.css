@@ -502,3 +502,7 @@ html{
     color:white;
     transform:translateY(-3px);
 }
+nav h2 a{
+    color:#38bdf8;
+    text-decoration:none;
+}
