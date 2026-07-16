@@ -506,3 +506,43 @@ nav h2 a{
     color:#38bdf8;
     text-decoration:none;
 }
+.about-highlights{
+    margin-top:60px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.highlight-card{
+    width:230px;
+    background:#1e293b;
+    border:2px solid transparent;
+    border-radius:18px;
+    padding:25px 20px;
+    transition:all .3s ease;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.highlight-card:hover{
+    transform:translateY(-8px);
+    border-color:#38bdf8;
+    box-shadow:0 15px 35px rgba(56,189,248,.3);
+}
+
+.highlight-icon{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.highlight-card h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+    font-size:22px;
+}
+
+.highlight-card p{
+    margin:0;
+    font-size:16px;
+    color:#cbd5e1;
+}
