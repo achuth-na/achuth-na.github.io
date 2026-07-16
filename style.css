@@ -221,7 +221,9 @@ nav ul li a.active::after{
     border-radius:15px;
     transition:0.3s;
     border:2px solid transparent;
-    min-height:420px;
+    min-height:560px;
+    display:flex;
+    flex-direction:column;
 }
 
 .project-card h3{
@@ -479,29 +481,7 @@ html{
     opacity:1;
     transform:translateY(0);
 }
-.project-buttons{
-    display:flex;
-    justify-content:center;
-    gap:15px;
-    margin-top:25px;
-    flex-wrap:wrap;
-}
 
-.project-btn{
-    text-decoration:none;
-    background:#38bdf8;
-    color:#0f172a;
-    padding:10px 18px;
-    border-radius:8px;
-    font-weight:bold;
-    transition:.3s;
-}
-
-.project-btn:hover{
-    background:#0ea5e9;
-    color:white;
-    transform:translateY(-3px);
-}
 nav h2 a{
     color:#38bdf8;
     text-decoration:none;
@@ -550,48 +530,7 @@ nav h2 a{
     color:#22c55e;
     font-weight:bold;
 }
-.project-links{
-    display: flex;
-    gap: 10px;
-    margin-top: 15px;
-}
 
-.project-links .btn{
-    flex: 1;
-    text-align: center;
-}
-.project-links{
-    display: flex;
-    gap: 12px;
-    margin-top: 20px;
-}
-
-.project-links .btn{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 52px;
-    padding: 0 20px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s;
-}
-.projects-container{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    align-items: stretch;
-}
-
-.project-card{
-    width: 360px;
-    min-height: 560px;
-    display: flex;
-    flex-direction: column;
-}
 
 .project-links{
     margin-top: auto;
