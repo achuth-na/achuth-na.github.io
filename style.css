@@ -534,6 +534,7 @@ nav h2 a{
 
 .project-links{
     margin-top: auto;
+    padding-top: 25px;
     display: flex;
     gap: 12px;
 }
