@@ -578,3 +578,33 @@ nav h2 a{
     font-weight: 600;
     transition: 0.3s;
 }
+.projects-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.project-card{
+    width: 360px;
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-links{
+    margin-top: auto;
+    display: flex;
+    gap: 12px;
+}
+
+.project-links .btn{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 52px;
+    text-align: center;
+    white-space: nowrap;
+}
