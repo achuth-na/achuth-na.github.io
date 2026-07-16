@@ -534,16 +534,19 @@ nav h2 a{
 
 .project-links{
     display:flex;
+    flex-direction:row;
     justify-content:center;
-    gap:10px;
-    margin-top:25px;
-    flex-wrap:wrap;
+    gap:12px;
+    margin-top:auto;
+    padding-top:25px;
+    flex-wrap:nowrap;
 }
 
 .project-links .btn{
-    padding:12px 22px;
-    font-size:16px;
+    flex:1;
     min-width:140px;
+    text-align:center;
+    padding:12px 20px;
 }
 .tech-stack{
     margin-top:20px;
