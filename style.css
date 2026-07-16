@@ -158,7 +158,13 @@ nav ul li a:hover{
     color:#38bdf8;
     margin-bottom:50px;
 }
-
+.skills-category h3{
+    color:#ffffff;
+    font-size:28px;
+    margin:45px 0 25px;
+    text-align:center;
+    font-weight:700;
+}
 .skills-container{
     display:flex;
     flex-wrap:wrap;
