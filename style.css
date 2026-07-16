@@ -125,6 +125,13 @@ nav ul li a:hover::after{
 nav ul li a:hover{
     color:#38bdf8;
 }
+nav ul li a.active{
+    color:#38bdf8;
+}
+
+nav ul li a.active::after{
+    width:100%;
+}
 .about{
     min-height:100vh;
     padding:100px 10%;
