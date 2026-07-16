@@ -82,12 +82,14 @@ nav{
     top:0;
     left:0;
     width:100%;
-    padding:20px 80px;
+    padding:18px 80px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:#0f172a;
-z-index:1000;
+    background:rgba(15,23,42,.85);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid rgba(255,255,255,.08);
+    z-index:1000;
 }
 
 nav h2{
